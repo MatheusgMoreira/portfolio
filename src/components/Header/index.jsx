@@ -1,8 +1,9 @@
 import React from "react";
+import '../css/style.css';
 
 function Header() {
   return (
-    <div className="Header--bg">
+    <div className="header--bg">
       <nav>
         <ul>
           <li>Início</li>
