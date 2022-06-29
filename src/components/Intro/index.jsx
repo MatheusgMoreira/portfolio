@@ -1,19 +1,19 @@
 import React from "react";
+import '../css/sass/style.scss'
+import IntroImg from '../media/intro--img.jpg'
 
 function index() {
   return (
     <div className="intro--bg">
       <div className="intro--img">
-        <img src="../media/intro--img.jpg" alt="" />
       </div>
       <div className="intro--texto">
-        <h1>Sobre mim </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora
-          impedit labore fuga dolores nemo, aperiam tempore ut quibusdam
-          consectetur iure commodi eaque beatae! Consequatur similique laborum
-          sequi commodi delectus!
-        </p>
+        <h1>Matheus Gonçalves Moreira</h1>
+        <ul>
+          <li>Desenvolvedor Front-End</li>
+          <li>Belo Horizonte</li>
+          <li>19 anos</li>
+        </ul>
       </div>
     </div>
   );
